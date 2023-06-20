@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
-  resources :crew_members, only: [:index, :show, :create]
-  resources :productions, only: [:index, :show, :create]
+  resources :crew_members, only: [:index, :show, :create, :update, :destroy]
+  resources :productions, only: [:index, :show, :create, :update, :destroy]
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
 
   # Defines the root path route ("/")
